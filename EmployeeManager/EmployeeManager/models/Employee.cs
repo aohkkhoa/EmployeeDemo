@@ -15,7 +15,7 @@ namespace EmployeeManager.models
         public string Name { get; set; }
         public int Age { get; set; }
         public bool Gender { get; set; }
-        public string? DayOfBirth { get; set; }
-        public string? Country { get; set; }
+        public string DayOfBirth { get; set; }
+        public string Country { get; set; }
     }
 }
